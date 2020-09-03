@@ -70,8 +70,13 @@ export default function Home() {
       </Head>
 
       <main>
+        {/* Navbar small (logo only) */}
+        <div className="md:hidden flex justify-center items-center pt-5">
+          <img className="h-5" src="/vercel.svg" />
+        </div>
+
         {/* Navbar */}
-        <nav className="flex justify-between items-center my-3 max-w-4xl mx-auto">
+        <nav className="hidden md:flex justify-between items-center my-3 max-w-4xl mx-auto px-5">
           {/* Left navbar */}
           <div className="w-1/3 flex justify-start items-center">
             <img className="h-5" src="/vercel.svg" />
@@ -96,7 +101,7 @@ export default function Home() {
         <div className="pt-10 pb-10">
           <div
             ref={dspRef}
-            className="mb-12 flex flex-col items-center justify-center font-extrabold tracking-tighter text-7xl"
+            className="mb-12 flex flex-col items-center justify-center font-extrabold tracking-tighter text-6xl md:text-7xl"
             style={{ lineHeight: 1.1 }}
           >
             <GradientText
@@ -115,15 +120,15 @@ export default function Home() {
           </div>
 
           <div className="mb-16 max-w-4xl mx-auto flex justify-center items-center">
-            <button className="mx-2 w-40 rounded-md py-2 px-5 bg-black text-white">
+            <button className="mx-2 w-40 rounded-md py-2 px-3 bg-black text-white">
               Start Deploying
             </button>
-            <button className="mx-2 w-40 rounded-md py-2 px-5 border border-gray-400 text-gray-700">
+            <button className="mx-2 w-40 rounded-md py-2 px-3 border border-gray-400 text-gray-700">
               Get a Demo
             </button>
           </div>
 
-          <div className="mb-12 max-w-3xl mx-auto text-center">
+          <div className="mb-12 max-w-3xl mx-auto px-5 text-center">
             <p className="text-lg text-gray-700">
               Vercel combines the best developer experience with an obsessive
               focus on end-user performance. Our platform enables frontend teams
