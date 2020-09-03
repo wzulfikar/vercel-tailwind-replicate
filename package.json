@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "gsap": "^3.5.1",
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-icons": "^3.11.0",
+    "react-use": "^15.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.7.6"
   }
 }
