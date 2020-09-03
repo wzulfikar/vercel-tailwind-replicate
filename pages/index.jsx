@@ -18,7 +18,7 @@ function ButtonNavbarRight({ text, primary = false }) {
         primary
           ? "bg-black px-3 py-1 rounded-md text-white font-normal"
           : "text-gray-700"
-      } text-sm mx-2 font-light`}
+        } text-sm mx-2 font-light`}
     >
       {text}
     </button>
@@ -72,14 +72,14 @@ export default function Home() {
       <main>
         {/* Navbar small (logo only) */}
         <div className="md:hidden flex justify-center items-center pt-5">
-          <img className="h-5" src="/vercel.svg" />
+          <img className="h-5" src="/vercel.svg" alt="vercel logo" />
         </div>
 
         {/* Navbar */}
         <nav className="hidden md:flex justify-between items-center my-3 max-w-4xl mx-auto px-5">
           {/* Left navbar */}
           <div className="w-1/3 flex justify-start items-center">
-            <img className="h-5" src="/vercel.svg" />
+            <img className="h-5" src="/vercel.svg" alt="vercel logo" />
           </div>
 
           {/* Center navbar */}
