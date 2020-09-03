@@ -29,7 +29,7 @@ function ButtonNavbarRight({ text, primary = false }) {
 function GradientText({ text, from, to, style = {} }) {
   return (
     <span
-      className={`relative bg-clip-text bg-gradient-to-r from-${from} to-${to}`}
+      className={`relative bg-clip-text bg-gradient-to-r ${from} ${to}`}
       style={style}
     >
       {text}
@@ -106,15 +106,15 @@ export default function Home() {
           >
             <GradientText
               text="Develop."
-              from="blue-600"
-              to="teal-400"
+              from="from-blue-600"
+              to="to-teal-400"
               style={{ bottom: "-0.15em" }}
             />
-            <GradientText text="Preview." from="purple-600" to="pink-600" />
+            <GradientText text="Preview." from="from-purple-600" to="to-pink-600" />
             <GradientText
               text="Ship."
-              from="red-600"
-              to="yellow-500"
+              from="from-red-600"
+              to="to-yellow-500"
               style={{ top: "-0.15em" }}
             />
           </div>
