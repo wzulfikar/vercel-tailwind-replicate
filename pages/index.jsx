@@ -102,20 +102,20 @@ export default function Home() {
           <div
             ref={dspRef}
             className="mb-12 flex flex-col items-center justify-center font-extrabold tracking-tighter text-6xl md:text-7xl"
-            style={{ lineHeight: 1.1 }}
+            style={{ lineHeight: 1.2 }}
           >
             <GradientText
               text="Develop."
               from="from-blue-600"
               to="to-teal-400"
-              style={{ bottom: "-0.15em" }}
+              style={{ bottom: "-0.2em" }}
             />
             <GradientText text="Preview." from="from-purple-600" to="to-pink-600" />
             <GradientText
               text="Ship."
               from="from-red-600"
               to="to-yellow-500"
-              style={{ top: "-0.15em" }}
+              style={{ top: "-0.2em" }}
             />
           </div>
 
