@@ -5,3 +5,6 @@ Just a quick experiment to try Tailwind gradient (https://tailwindcss.com) and h
 Left is https://vercel.com, right is https://vercel-tailwind-replicate.vercel.app.
 
 ![vercel-x-tailwind.gif](vercel-x-tailwind.gif)
+
+If you want to play around with the code, use this codesandbox link:  
+https://codesandbox.io/s/github/wzulfikar/vercel-tailwind-replicate?file=/pages/index.jsx
