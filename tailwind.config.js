@@ -10,7 +10,7 @@ module.exports = {
         body: ["Inter var"],
       },
       fontSize: {
-        "7xl": "8em",
+        "7xl": "10em",
       },
     },
   },
